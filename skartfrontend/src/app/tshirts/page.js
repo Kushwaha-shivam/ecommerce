@@ -18,9 +18,9 @@ const Tshirts = (props) => {
           {
             data.map((item, index) => {
               return (
-                <div key={index} className="lg:w-1/5 lg:p-0 lg:mr-2 md:w-1/3 p-3 mb-5 hover:shadow-md rounded">
+                <div key={index} className="lg:w-1/4 lg:mb-5 lg:mr-5 md:w-1/3 md:mb-5 md:m4-5 p-3 mb-5 hover:shadow-md rounded">
                   <Link href={'/docs/product'} >
-                    <img alt="ecommerce" height={500} width={300} src={item.image} />
+                    <img alt="ecommerce" src={item.image} />
                     <div className="p-2">
                       <h3 className=" text-gray-500 text-sm font-semibold mb-1">{item.category}
                       </h3>
@@ -38,6 +38,5 @@ const Tshirts = (props) => {
     </>
   )
 }
-
 
 export default Tshirts

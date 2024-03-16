@@ -1,7 +1,7 @@
 const express = require("express");
 const connectToDb = require("./db_connection/mongodb_connect");
-const dotenv = require('dotenv').config();
-const port = process.env.PORT;
+const env = require('dotenv').config();
+const port = process.env.PORT || 3005;
 const cors = require('cors');
 const bodyparser = require('body-parser');
 const cookieParser = require('cookie-parser')

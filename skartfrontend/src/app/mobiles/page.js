@@ -32,8 +32,6 @@ const Mobiles = () => {
       </div>
 
 
-
-
     </>
   )
 }

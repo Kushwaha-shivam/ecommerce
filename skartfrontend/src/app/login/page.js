@@ -23,8 +23,8 @@ const login = () => {
         pauseOnHover: true,
         theme: "light",
         autoClose: 2000,
-
     });
+    
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const submitHandler = async (e) => {
@@ -48,7 +48,6 @@ const login = () => {
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
             <ToastContainer
                 position="top-center"
-
             />
 
             <div className="sm:mx-auto sm:w-full sm:max-w-sm">
