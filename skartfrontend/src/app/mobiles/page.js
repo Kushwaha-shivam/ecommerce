@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Mobiles = () => {
+
   return (
     <>
       <div className="container py-16 px-5 mx-auto">

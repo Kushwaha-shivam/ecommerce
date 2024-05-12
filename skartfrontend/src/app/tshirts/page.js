@@ -30,7 +30,6 @@ const Tshirts = (props) => {
                   </Link>
                 </div>
               )
-
             })
           }
         </div>
